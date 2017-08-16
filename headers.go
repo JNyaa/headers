@@ -86,6 +86,13 @@ const (
 	XRatelimitLimit        = "X-Ratelimit-Limit"
 	XRatelimitRemaining    = "X-Ratelimit-Remaining"
 	XRatelimitReset        = "X-Ratelimit-Reset"
+
+	NoCache      = "no-cache"
+	OnlyIfCached = "only-if-cached"
+	MaxAge       = "max-age"
+	MinFresh     = "min-fresh"
+	MaxStale     = "max-stale"
+	Date         = "date"
 )
 
 // Normalize formats the input header to the formation of "Xxx-Xxx".
