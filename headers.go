@@ -93,6 +93,18 @@ const (
 	MinFresh     = "min-fresh"
 	MaxStale     = "max-stale"
 	Date         = "date"
+
+	HeaderVary   = "Vary"
+	HeaderOrigin = "Origin"
+	// Access control
+	HeaderAccessControlRequestMethod    = "Access-Control-Request-Method"
+	HeaderAccessControlRequestHeaders   = "Access-Control-Request-Headers"
+	HeaderAccessControlAllowOrigin      = "Access-Control-Allow-Origin"
+	HeaderAccessControlAllowMethods     = "Access-Control-Allow-Methods"
+	HeaderAccessControlAllowHeaders     = "Access-Control-Allow-Headers"
+	HeaderAccessControlAllowCredentials = "Access-Control-Allow-Credentials"
+	HeaderAccessControlExposeHeaders    = "Access-Control-Expose-Headers"
+	HeaderAccessControlMaxAge           = "Access-Control-Max-Age"
 )
 
 // Normalize formats the input header to the formation of "Xxx-Xxx".
