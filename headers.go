@@ -5,11 +5,13 @@ import (
 )
 
 // Version is this package's version
-const Version = "2.1.0"
+const Version = "0.1.0"
 
 // HTTP headers
 const (
 	Accept                        = "Accept"
+	AcceptCH                      = "Accept-CH"
+	AcceptCHLifeTime              = "Accept-CH-Lifetime"
 	AcceptCharset                 = "Accept-Charset"
 	AcceptEncoding                = "Accept-Encoding"
 	AcceptLanguage                = "Accept-Language"
@@ -60,6 +62,7 @@ const (
 	P3P                           = "P3P"
 	ProxyAuthenticate             = "Proxy-Authenticate"
 	Refresh                       = "Refresh"
+	ReferrerPolicy                = "referrer-policy"
 	RetryAfter                    = "Retry-After"
 	Server                        = "Server"
 	SetCookie                     = "Set-Cookie"
@@ -96,6 +99,7 @@ const (
 
 	HeaderVary   = "Vary"
 	HeaderOrigin = "Origin"
+
 	// Access control
 	HeaderAccessControlRequestMethod    = "Access-Control-Request-Method"
 	HeaderAccessControlRequestHeaders   = "Access-Control-Request-Headers"

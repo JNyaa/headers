@@ -3,7 +3,7 @@ package headers_test
 import (
 	"fmt"
 
-	"github.com/go-http-utils/headers"
+	"github.com/JNyaa/headers"
 )
 
 func Example() {
